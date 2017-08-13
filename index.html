@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-	<title> Ejercicio de Git - Creacion de lista</title>
-</head>
-<body>
-<h1> Lista de Frutas </h1>
-<p1> Frutas Master es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor.</p1> <br>
-<p2> En la actualidad, somos la empresa lider en el servicio de distribución de frutas.</p2></br>
-<img src="frutas-1.jpg" width="500" height="300">
-</br>
-<p> Catálogo </p>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Ejercicio de Git - Creacion de lista</title>
+		<link rel="stylesheet" type="text/css" href="asset/CSS/main.css">
+	</head>
+	<body>
+		<section class="informacion">
+		<h1> Lista de Frutas </h1>
+			<p> Frutas Master es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor.</p>
+			<p> En la actualidad, somos la empresa lider en el servicio de distribución de frutas.</p2></br>
+				<img src="assets/img/frutas-1.jpg" width="500" height="300"></br>
+			</section>
+		<section>
+			<p> Catálogo </p>
+	    	<ol id="catalogoFrutas">
+				<li>Manzana</li>
+				<li>Pera</li>
+				<li>Piña</li>
+				<li>Cereza</li>
+				<li>Naranja</li>
+			</ol>
+		</section>
+		<section>
+			<p> Lista de compra </p>
+	    	<ol id="compra">
+						
+			</ol>
+		</section>
 
-<ol>
-<li>Manzana</li>
-<li>Pera</li>
-<li>Piña</li>
-<li>Cereza</li>
-<li>Naranja</li>
+		<section id="listaFrutas">
+			<input id="textoIngresado" type="text" name="texto" placeholder="Ingresa el nombre de la fruta" />
+			<input type="button" value="Agregar" id="ingresar" onclick="frutas()"/>
+		</section>
 
-
-
-</ol>
-
-<input type="text"> <input type="button" value="Ingresar" id="ingresar"/>
-
-<script src="assets/js/javascript.js"> </script>
-
+		<script type="text/javascript" src="assets/js/javascript.js"></script>
 </body>
 </html>
