@@ -1,9 +1,6 @@
 /* Verificando que el enlace funciona mediante un alert */
 alert("¡Hello World!")
 
-
-
-
 function frutas(){
 
 	var elementos = ["Manzana","Pera","Piña","Cereza","Naranja"];
