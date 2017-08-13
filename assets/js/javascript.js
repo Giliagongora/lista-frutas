@@ -15,8 +15,9 @@ con createElement para que se imprima en el navegador */
 	var b = document.createElement("compra");
 
 /**/
-
-	if(a != "Manzana" && a != "Pera" && a != "Piña" && a != "Cereza" && a != "Naranja"){
+	if(a == ""){
+		alert("Debes ingresar un producto");
+	}else if(a != "Manzana" && a != "Pera" && a != "Piña" && a != "Cereza" && a != "Naranja"){
 		alert("Esa fruta no está en catálogo");
 	}else{
 
