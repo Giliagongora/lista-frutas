@@ -13,7 +13,7 @@ con createElement para que se imprima en el navegador */
 
 /**/
 	if(a == ""){
-		alert("Debes ingresar un producto")
+		alert("Debes ingresar un producto");
 	}else if(a != "Manzana" && a != "Pera" && a != "Piña" && a != "Cereza" && a != "Naranja"){
 		alert("Esa fruta no está en catálogo");
 	}else{
